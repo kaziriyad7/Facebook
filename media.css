@@ -222,15 +222,12 @@
     display: none;
   }
 
-  .header_left {
-    width: 30%;
-  }
   .search_bar {
   display: none;
   }
   
   .mid-menu {
-    display: none;
+    width:500px;
   }
 
   .feed {
