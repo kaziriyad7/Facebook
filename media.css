@@ -1,24 +1,255 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  
-}
+@media (max-width: 320px) {
+  .sidebar {
+    display: none;
+    width: 0%;
+  }
+  .slidebar {
+    display: none;
+    width: 0%;
+    margin: 0 auto;
+  }
+  .header {
+    width: 95%;
+  }
+  .mid-menu {
+    display: none;
+  }
+  .story {
+    width: 48px;
+    height: 110px;
+    margin: 0 auto;
+  }
+  .messageSender_bottom{
+    display: flex;
+    justify-content: space-between;
+  }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  
-}
+  .messageSender_option h3{
+    display: none;
+  }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  
-}
+  .search_bar {
+    display: none;
+    }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  
-}
+  .feed {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
- 
+  .messageSender_top {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .story-content img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .storyName {
+    font-size: 2px;
+    margin-left: -14px;
+  }
+
+ .header_info img {
+   display: none;
+ }
+
+ .headerUserName {
+   display: none;
+ }
+}
+@media (min-width: 320px) and (max-width: 375px) {
+  .sidebar {
+    display: none;
+    width: 0%;
+  }
+  .slidebar {
+    display: none;
+    width: 0%;
+    margin: 0 auto;
+  }
+  .header {
+    width: 100%;
+  }
+  .mid-menu {
+    display: none;
+  }
+  .story {
+    width: 62px;
+    height: 120px;
+    margin: 0 auto;
+  }
+  .messageSender_bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .messageSender_option h3{
+    display: none;
+  }
+
+  .search_bar {
+    display: none;
+    }
+
+  .feed {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .messageSender_top {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .story-content img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .storyName {
+    font-size: 2px;
+    margin-left: -10px;
+  }
+
+ .header_info img {
+   display: none;
+ }
+
+ .headerUserName {
+   display: none;
+ }
+}
+@media (min-width: 413px) and (max-width: 575px) {
+  .sidebar {
+    display: none;
+  }
+  .slidebar {
+    display: none;
+  }
+  .header {
+    width: 100%;
+  }
+  .header_left {
+  }
+  .search_bar {
+  }
+
+  .story {
+    width: 50px;
+    height: 100px;
+    margin-right: 5%;
+  }
+  .bag_img1 {
+    margin: 0px auto;
+  }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+  .sidebar {
+    display: none;
+    width: 0%;
+  }
+  .slidebar {
+    display: none;
+    width: 0%;
+    margin: 0 auto;
+  }
+  .header {
+    width: 100%;
+  }
+  .mid-menu {
+    display: none;
+  }
+  .story {
+    width: 70px;
+    height: 125px;
+    margin: 0 auto;
+  }
+  .messageSender_bottom{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .messageSender_option h3{
+    display: none;
+  }
+
+  .search_bar {
+    display: none;
+  }
+
+  .feed {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .messageSender_top {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .story-content img {
+    width: 27px;
+    height: 27px;
+  }
+
+  .storyName {
+    font-size: 3px;
+    margin-left: -9px;
+  }
+
+ .header_info img {
+   display: none;
+ }
+
+ .headerUserName {
+   display: none;
+ }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .slidebar {
+    display: none;
+  }
+
+  .header_left {
+    width: 30%;
+  }
+  .search_bar {
+  display: none;
+  }
+  
+  .mid-menu {
+    display: none;
+  }
+
+  .feed {
+    margin-top: 20px;
+    width: 100%;
+    padding: 0;
+  }
+
+ .header_info img {
+   display: none;
+ }
+
+ .headerUserName {
+   display: none;
+ }
+}
+@media (min-width: 992px) and (max-width: 1134px) {
+}
+@media (min-width: 1135px) and (max-width: 1199.98px) {
+}
+@media (min-width: 1200px) and (max-width: 1475px) {
 }
